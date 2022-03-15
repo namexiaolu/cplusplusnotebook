@@ -16,10 +16,11 @@ moc查找头文件中的signals，slots，标记出信号和槽
 ## 信号与槽传参参数区别？
 Qt规定信号和槽的参数类型要对应，信号可以比槽的参数多
    1. 当信号的参数和槽函数的参数个数一致时，参数类型需要严格一致。
-   connect(this, SIGNAL(iSignal(int)), this, SLOT(iSlot(int)));
-   发射信号：emit iSignal(5);
+      connect(this, SIGNAL(iSignal(int)), this, SLOT(iSlot(int)));
+      发射信号：emit iSignal(5);
    
    2. 信号和槽函数保护的参数数量不同，只能是信号的参数多于槽函数，前边的类型必须一致，多余的会被忽略。
+
     connect(this, SIGNAL(iSignal(int, float)), this, SLOT(iSlot(int)));
     发送信号：emit iSignal(5, 0.3); 只会接受5；
 
@@ -162,3 +163,15 @@ https://www.runoob.com/w3cnote/cpp-virtual-functions.html
     https://www.cnblogs.com/wuaihua/p/7256872.html
 ## 堆是怎么实现的？
     https://www.jianshu.com/p/a207707c4974
+
+## 多线程：
+
+### 为啥要用多线程：（2个原因）
+
+- **关注点分离**：通过将相关的代码放在一起并将无关的代码分开，可以使你的程序更容易理解和测试，从而减少出错的可能性。你可以使用并发来分隔不同的功能区域，即使在这些不同功能区域的操作需要在同一时刻发生的情况下；若不显式地使用并发，你要么被迫编写任务切换框架，要么在操作中主动地调用不相关的一段代码。
+- **更高效的性能**：为了充分发挥多核心处理器的优势，使用并发将单个任务分成几部分且各自并行运行，从而降低总运行时间。根据任务分割方式的不同，又可以将其分为两大类：一类是对同样的数据应用不同的处理算法（任务并行）；另一类是用同样的处理算法共同处理数据的几部分（数据并行）。
+
+
+
+多进程之间的通信：管道、信号、文件、套接字
+

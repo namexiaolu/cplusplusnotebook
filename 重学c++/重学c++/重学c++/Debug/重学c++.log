@@ -1,0 +1,4 @@
+﻿  重学c++.cpp
+d:\program\c++\cplusplusnotebook\重学c++\重学c++\重学c++\重学c++.cpp(15): warning C4305: “初始化”: 从“int”到“char”截断
+d:\program\c++\cplusplusnotebook\重学c++\重学c++\重学c++\重学c++.cpp(15): warning C4309: “初始化”: 截断常量值
+  重学c++.vcxproj -> D:\program\c++\cplusplusnotebook\重学c++\重学c++\Debug\重学c++.exe
