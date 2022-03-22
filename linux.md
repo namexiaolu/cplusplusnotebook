@@ -24,7 +24,7 @@ drwxr-xr-x 2 xiaolu xiaolu 4096 Mar 20 10:13 file1    开头为d的是文件夹
 
 ![363003_1227493859FdXT](https://www.runoob.com/wp-content/uploads/2014/06/363003_1227493859FdXT.png
 
-![image-20220322101540042](.\linux.assets\image-20220322101540042.png)
+![image-20220322101540042](./linux.assets/image-20220322101540042.png)
 
 
 
