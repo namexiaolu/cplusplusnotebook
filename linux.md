@@ -24,7 +24,7 @@ drwxr-xr-x 2 xiaolu xiaolu 4096 Mar 20 10:13 file1    开头为d的是文件夹
 
 ![363003_1227493859FdXT](https://www.runoob.com/wp-content/uploads/2014/06/363003_1227493859FdXT.png
 
-![image-20220322101540042](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322101540042.png)
+![image-20220322101540042](.\linux.assets\image-20220322101540042.png)
 
 
 
@@ -59,15 +59,15 @@ chmod -R 777 递归给所有子文件和子文件夹都设置为可读可写可�
 
 ​		-A 显示所有进程
 
-![image-20220322110304078](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110304078.png)
+![image-20220322110304078](.\linux.assets\image-20220322110304078.png)
 
 ​		-au 显示较详细的资讯
 
-![image-20220322110414090](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110414090.png)
+![image-20220322110414090](.\linux.assets\image-20220322110414090.png)
 
 ​		-aux 显示所有包含其他使用者的行程 
 
-![image-20220322110425374](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110425374.png)
+![image-20220322110425374](.\linux.assets\image-20220322110425374.png)
 
 执行退出：exit  q
 查看当前路径：pwd
@@ -76,7 +76,7 @@ chmod -R 777 递归给所有子文件和子文件夹都设置为可读可写可�
 
 ps 为我们提供了进程的一次性的查看，它所提供的查看结果并不动态连续的；如果想对进程时间监控，应该用 top 工具。
 
-输入top之后：![image-20220322110442791](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110442791.png)
+输入top之后：![image-20220322110442791](.\linux.assets\image-20220322110442791.png)
 
 ## netstate
 
