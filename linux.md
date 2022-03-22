@@ -23,7 +23,7 @@ drwxr-xr-x 2 xiaolu xiaolu 4096 Mar 20 10:13 file1    开头为d的是文件夹
 ## 9个权限分别代表什么
 
 
-![image-20220322101540042](./linux.assets/image-20220322101540042.png)
+![image-20220322101540042](linux.assets/image-20220322101540042.png)
 
 
 
