@@ -1,6 +1,6 @@
 ## git 基本用法
 
-![clipboard.png](https://segmentfault.com/img/bVbtc0c?w=655&h=645)
+![image-20220322110344641](D:\program\c++\cplusplusnotebook\git.assets\image-20220322110344641.png)
 
 ### 本地什么都没有，远程有的话
 

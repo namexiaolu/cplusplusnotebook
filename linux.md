@@ -22,7 +22,11 @@ drwxr-xr-x 2 xiaolu xiaolu 4096 Mar 20 10:13 file1    开头为d的是文件夹
 
 ## 9个权限分别代表什么
 
-![363003_1227493859FdXT](https://www.runoob.com/wp-content/uploads/2014/06/363003_1227493859FdXT.png)
+![363003_1227493859FdXT](https://www.runoob.com/wp-content/uploads/2014/06/363003_1227493859FdXT.png
+
+![image-20220322101540042](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322101540042.png)
+
+
 
 [linux](https://so.csdn.net/so/search?q=linux&spm=1001.2101.3001.7020)系统文件夹644、755、777权限设置详解 ，左至右，
 
@@ -55,26 +59,24 @@ chmod -R 777 递归给所有子文件和子文件夹都设置为可读可写可�
 
 ​		-A 显示所有进程
 
-![image-20220320102825756](C:\Users\xiaolu\AppData\Roaming\Typora\typora-user-images\image-20220320102825756.png)
+![image-20220322110304078](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110304078.png)
 
 ​		-au 显示较详细的资讯
 
-![image-20220320103017972](C:\Users\xiaolu\AppData\Roaming\Typora\typora-user-images\image-20220320103017972.png)
+![image-20220322110414090](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110414090.png)
 
 ​		-aux 显示所有包含其他使用者的行程 
 
-![image-20220320103045431](C:\Users\xiaolu\AppData\Roaming\Typora\typora-user-images\image-20220320103045431.png)
+![image-20220322110425374](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110425374.png)
 
 执行退出：exit  q
 查看当前路径：pwd
-
-![image-20220320104457490](C:\Users\xiaolu\AppData\Roaming\Typora\typora-user-images\image-20220320104457490.png)
 
 ## ps 和top 的区别（查查）
 
 ps 为我们提供了进程的一次性的查看，它所提供的查看结果并不动态连续的；如果想对进程时间监控，应该用 top 工具。
 
-输入top之后：![image-20220320104548578](C:\Users\xiaolu\AppData\Roaming\Typora\typora-user-images\image-20220320104548578.png)
+输入top之后：![image-20220322110442791](D:\program\c++\cplusplusnotebook\linux.assets\image-20220322110442791.png)
 
 ## netstate
 
