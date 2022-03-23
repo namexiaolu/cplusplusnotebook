@@ -1,6 +1,6 @@
 ## git 基本用法
 
-![image-20220322110344641](D:\program\c++\cplusplusnotebook\git.assets\image-20220322110344641.png)
+![image-20220322110344641](git.assets/image-20220322110344641.png)
 
 ### 本地什么都没有，远程有的话
 
