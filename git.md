@@ -57,6 +57,53 @@ git pull 就可以
 3. 将创建的分支关联远程仓库
    	git push --set-upstream origin 分支名
 
+### 想将dev分支合并到master分支，操作如下：链接：https://www.jianshu.com/p/26d050497abb
+
+- 1、首先切换到master分支上
+
+```undefined
+git  checkout master
+```
+
+- 2、如果是多人开发的话 需要把远程master上的代码pull下来
+
+```cpp
+git pull origin master
+//如果是自己一个开发就没有必要了，为了保险期间还是pull
+```
+
+- 3、然后我们把dev分支的代码合并到master上
+
+```undefined
+git  merge dev
+```
+
+- 4、然后查看状态及执行提交命令
+
+```csharp
+git status
+
+On branch master
+Your branch is ahead of 'origin/master' by 12 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+//上面的意思就是你有12个commit，需要push到远程master上 
+> 最后执行下面提交命令
+git push origin master
+```
+
+- 5其他命令
+
+```cpp
+查看所有分支
+git branch -a
+删除远程分支Chapater6
+git push origin --delete Chapater6
+删除本地分支 Chapater6
+git branch -d  Chapater6
+```
+
 ## 子模块 submodule
 
 参考：https://www.jianshu.com/p/9000cd49822c
@@ -124,3 +171,30 @@ git clone https://github.com/maonx/vimwiki-assets.git assets --recursive
  ### 更新子模块
 
 进入到子模块目录中，正常add commit push即可、
+
+
+
+## 常用命令总结
+
+`git diff <filename>`命令：https://www.jianshu.com/p/80542dc3164e
+
+​	查看工作区和暂存区的文件详细更改情况
+
+`git diff --cached <filename>`
+
+​	暂存区 vs Git仓库 -------也就是add 了但是没有commit的内容和最新一次 commit 时的内容的区别
+
+`git diff <commitID> <commitID>`
+
+​	查看两次commit 的差异。
+
+`git status` 
+
+​	查看 add 了哪些文件。
+
+```
+$ git reset HEAD ^            # 回退所有内容到上一个版本  
+$ git reset HEAD ^ hello.php  # 回退 hello.php 文件的版本到上一个版本  
+$ git  reset <commitID>          # 回退到指定版本
+```
+
