@@ -36,3 +36,23 @@ git pull 就可以
 
 改完之后 正常 add commit push 即可。
 
+## 分支
+
+### 远程有分支本地没有
+
+```undefined
+1.将某个远程主机的更新，全部取回本地：git fetch
+
+2.查看远程分支：git branch -a
+
+3.拉取远程分支到本地：git checkout -b 远程分支名 origin/远程分支名
+```
+
+### 本地新建分支，远程仓库没有
+
+1. 创建分支并切换到该分支
+     git checkout -b 新分支名
+2. 创建分支，但不切换
+     git branch 新分支名
+3. 将创建的分支关联远程仓库
+   	git push --set-upstream origin 分支名
